@@ -4,8 +4,8 @@
 const Alexa = require('ask-sdk-core');
 
 // constants for our custom skill
-const skillName = 'Bearcat Buddy - Mens basketball';
-const gender = 'Mens';
+const skillName = 'Bearcat Buddy - Womens basketball';
+const gender = 'Womens';
 const sport = 'Basketball';
 const home = 'home';
 const homecity = 'Maryville, Missouri';
