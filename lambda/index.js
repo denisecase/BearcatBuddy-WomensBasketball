@@ -17,7 +17,7 @@ const intentText2 = 'how many games remaining';
 const helpText = `Say when is the next game or how many games remaining? Say stop or cancel to exit.`;
 const doneText = 'Go Bearcats - Goodbye!';
 const errorText = "Sorry, I could not understand. Please try again.";
-const victoryText = ""
+const victoryText = "";
 
 // games
 const games = require('./games');
