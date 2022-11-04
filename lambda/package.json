@@ -1,12 +1,12 @@
 {
-  "name": "hello-world",
+  "name": "BB-WB",
   "version": "1.1.0",
-  "description": "alexa utility for quickly building skills",
+  "description": "Alexa utility for Bearcat Buddy - Women's Basketball",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Amazon Alexa",
+  "author": "Amazon Alexa and Case Consulting",
   "license": "ISC",
   "dependencies": {
     "ask-sdk-core": "^2.6.0",
