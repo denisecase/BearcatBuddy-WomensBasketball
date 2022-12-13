@@ -1,0 +1,12 @@
+{
+    "skillName": "Bearcat Buddy - Womens Basketball",
+    "gender": "Womens",
+    "sport": "Basketball",
+    "homecity": "Maryville, Missouri",
+    "intentText1": "when is the next game",
+    "intentText2": "how many games remaining",
+    "helpText": "Say when is the next game or how many games remaining? Say stop or cancel to exit.",
+    "doneText": "Go Bearcats - Goodbye!",
+    "errorText": "Sorry, I could not understand. Please try again.",
+    "victoryText": " "
+}

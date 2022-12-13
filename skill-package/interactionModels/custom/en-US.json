@@ -1,0 +1,81 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "bearcat buddy women\u0027s basketball",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "NextIntent",
+          "slots": [
+            {
+              "name": "Location",
+              "type": "LocationSlotType"
+            }
+          ],
+          "samples": [
+            "when is the next {Location} game",
+            "where is the next {Location} game",
+            "When is the next game",
+            "Where is the next game",
+            "next {Location} game",
+            "next game"
+          ]
+        },
+        {
+          "name": "RemainingIntent",
+          "slots": [
+            {
+              "name": "Location",
+              "type": "LocationSlotType"
+            }
+          ],
+          "samples": [
+            "how many {Location} games remaining",
+            "how many {Location} games are there",
+            "how many {Location} games are left",
+            "how many more games are there",
+            "how many games are left",
+            "how many games remaining"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "home"
+              }
+            },
+            {
+              "name": {
+                "value": "away"
+              }
+            }
+          ],
+          "name": "LocationSlotType"
+        }
+      ]
+    }
+  },
+  "version": "2"
+}
